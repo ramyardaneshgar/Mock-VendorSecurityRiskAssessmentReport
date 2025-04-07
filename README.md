@@ -3,7 +3,6 @@ A risk-based vendor due diligence framework for evaluating data processors again
 
 By Ramyar Daneshgar 
 
-# Vendor Privacy & Security Risk Assessment Report  
 **Company:** `SecurityEngineer.com`  
 **Vendor Evaluated:** `Acme Cloud Services`  
 **Assessed by:** Ramyar Daneshgar  

@@ -56,7 +56,7 @@ I performed a control-based assessment to evaluate how the vendor aligns with co
 - **DPA**: Since they’re a processor, I verified whether they had a signed DPA. They didn’t — that’s a **critical GDPR violation**.
 - **Subprocessor list**: Their website listed a few subprocessors, but the list was outdated and incomplete. Under GDPR, vendors are required to **fully disclose** all subprocessors. 
 - **SCCs**: Given their Germany-based operations and U.S. affiliations, I checked for **data transfer mechanisms**. They didn’t provide SCCs, which is required under **Chapter V of GDPR**.
-- **Retention policy**: Keeping logs for 5+ years is an issue unless justified (e.g., for legal archiving). Since that wasn't clear.
+- **Retention policy**: Keeping logs for 5+ years is an issue unless justified (for legal archiving). Since that wasn't clear.
 - **Erasure mechanism**: The “Right to be Forgotten” (GDPR Art. 17) should be easily exercised. If deletion only happens manually by support staff, that’s weak and error-prone.
 - **Consent**: They don’t collect data directly from users, so GDPR consent obligations don’t apply.
 - **Privacy Policy**: It hadn’t been updated since 2021 — a red flag because policies must reflect **current processing activities**.

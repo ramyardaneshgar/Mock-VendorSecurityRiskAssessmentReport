@@ -80,7 +80,7 @@ I performed a control-based assessment to evaluate how the vendor aligns with co
 **Risk Level:**  High Risk
 ```
 
-After the qualitative review, I applied a **quantitative risk scoring model**. This gives me a consistent and defensible way to compare vendors — especially useful when justifying my decisions to leadership or audit.
+After the qualitative review, I applied a quantitative risk scoring model. This gives me a consistent and defensible way to compare vendors — especially useful when justifying my decisions to leadership or audit.
 
 - I weighted **data sensitivity** most heavily, because if this vendor gets breached, we’re exposed to legal and reputational risk.
 - They got a **zero** on certifications because they don’t hold any third-party validations — that alone pushed their score down significantly.

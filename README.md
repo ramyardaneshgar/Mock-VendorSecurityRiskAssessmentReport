@@ -25,13 +25,13 @@ By Ramyar Daneshgar
 | Contact for Privacy  | privacy@acmecloud.com                    |
 ```
 
-In this section, I captured **basic vendor information** to establish context. I always start by confirming the legal entity name because it's essential for contracts like a DPA (Data Processing Agreement). Knowing what service they provide tells me what **types of data** may be involved and how mission-critical it is to our business.
+In this section, I captured basic vendor information to establish context. I always start by confirming the legal entity name because it's essential for contracts like a DPA (Data Processing Agreement). Knowing what service they provide tells me what types of data may be involved and how mission-critical it is to our business.
 
-In this case, Acme is a **cloud storage provider**, so I flagged them as handling **high-risk data types** — including PII and financial records. Because they process data *on our behalf*, they qualify as a **data processor** under GDPR, and that means **I'm responsible for ensuring we have a DPA in place**.
+In this case, Acme is a cloud storage provider, so I flagged them as handling high-risk data types — including PII and financial records. Because they process data *on our behalf*, they qualify as a data processor under GDPR, and that means I'm responsible for ensuring we have a DPA in place.
 
-The hosting location is also critical. Since they host in **Germany**, I know there are **EU data protection obligations** involved — which means I’ll need to check for SCCs (Standard Contractual Clauses) or another compliant transfer mechanism for any data flowing outside the EU.
+The hosting location is also critical. Since they host in Germany, I know there are EU data protection obligations involved — which means I’ll need to check for SCCs (Standard Contractual Clauses) or another compliant transfer mechanism for any data flowing outside the EU.
 
-Lastly, I documented their **subprocessors**, which is important for transparency and accountability under GDPR Article 28(2).
+Lastly, I documented their subprocessors, which is important for transparency and accountability under GDPR Article 28(2).
 
 ---
 
@@ -40,18 +40,18 @@ Lastly, I documented their **subprocessors**, which is important for transparenc
 ```markdown
 | Control Area                     | Finding                                        | Status     |
 |----------------------------------|------------------------------------------------|------------|
-| GDPR Article 28 DPA Signed       | Not provided                                   | Missing |
-| Subprocessor Disclosure          | Incomplete list                                | Partial |
-| Data Transfer Safeguards (EEA)   | No SCCs or adequacy provided                   | Missing |
-| Data Retention Policy            | Retains logs for 5+ years                      | High Risk |
-| Right to Erasure Mechanism       | Manual deletion by support only                | Weak |
-| Consent Management (if required) | Not applicable (processor role)                | Pass |
-| Privacy Policy Review            | Outdated (last updated 2021)                   | Outdated |
-| Security Certifications          | No SOC 2 or ISO 27001                          | Missing |
+| GDPR Article 28 DPA Signed       | Not provided                                   | Missing    |
+| Subprocessor Disclosure          | Incomplete list                                | Partial    |
+| Data Transfer Safeguards (EEA)   | No SCCs or adequacy provided                   | Missing    |
+| Data Retention Policy            | Retains logs for 5+ years                      | High Risk  |
+| Right to Erasure Mechanism       | Manual deletion by support only                | Weak       |
+| Consent Management (if required) | Not applicable (processor role)                | Pass       |
+| Privacy Policy Review            | Outdated (last updated 2021)                   | Outdated   |
+| Security Certifications          | No SOC 2 or ISO 27001                          | Missing    |
 ```
 
 
-I performed a **control-based assessment** to evaluate how the vendor aligns with core privacy and security obligations. This isn’t just a checkbox exercise — each control here maps to a real legal or framework requirement.
+I performed a control-based assessment to evaluate how the vendor aligns with core privacy and security obligations. This isn’t just a checkbox exercise — each control here maps to a real legal or framework requirement.
 
 - **DPA**: Since they’re a processor, I verified whether they had a signed DPA. They didn’t — that’s a **critical GDPR violation**.
 - **Subprocessor list**: Their website listed a few subprocessors, but the list was outdated and incomplete. Under GDPR, vendors are required to **fully disclose** all subprocessors. 
@@ -102,7 +102,7 @@ The final weighted score: `1.85 / 3` → I round this up to **High Risk**. This 
 6. **Pursue SOC 2 Type II or ISO 27001** certification to demonstrate baseline security controls.
 ```
 
-Here I documented the **actionable steps** the vendor must take. These recommendations tie directly back to my findings. I don’t just highlight the problems — I offer a roadmap for how the vendor can resolve each one.
+Here I documented the actionable steps the vendor must take. These recommendations tie directly back to my findings. I don’t just highlight the problems — I offer a roadmap for how the vendor can resolve each one.
 
 - **DPA**: Legal must be involved. No vendor should go live without it.
 - **Subprocessors**: Must be transparent. This is a non-negotiable item under GDPR.
@@ -130,6 +130,6 @@ _Compliance & Privacy Analyst_
 ```
 
 
-Finally, I made a **formal recommendation** based on the findings and scoring. This is essential for documentation and accountability. If a business team wants to proceed anyway, they’ll need to **formally accept the risk** — and that risk is now logged and traceable.
+Finally, I made a formal recommendation based on the findings and scoring. This is essential for documentation and accountability. If a business team wants to proceed anyway, they’ll need to formally accept the risk — and that risk is now logged and traceable.
 
 By signing and dating the report, I’m taking ownership of my risk assessment — and leaving a clear audit trail.

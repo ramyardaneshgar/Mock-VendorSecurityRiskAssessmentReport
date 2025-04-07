@@ -41,27 +41,27 @@ Lastly, I documented their **subprocessors**, which is important for transparenc
 ```markdown
 | Control Area                     | Finding                                        | Status     |
 |----------------------------------|------------------------------------------------|------------|
-| GDPR Article 28 DPA Signed       | Not provided                                   | ❌ Missing |
-| Subprocessor Disclosure          | Incomplete list                                | ⚠️ Partial |
-| Data Transfer Safeguards (EEA)   | No SCCs or adequacy provided                   | ❌ Missing |
-| Data Retention Policy            | Retains logs for 5+ years                      | ⚠️ High Risk |
-| Right to Erasure Mechanism       | Manual deletion by support only                | ⚠️ Weak |
-| Consent Management (if required) | Not applicable (processor role)                | ✅ Pass |
-| Privacy Policy Review            | Outdated (last updated 2021)                   | ⚠️ Outdated |
-| Security Certifications          | No SOC 2 or ISO 27001                          | ❌ Missing |
+| GDPR Article 28 DPA Signed       | Not provided                                   | Missing |
+| Subprocessor Disclosure          | Incomplete list                                | Partial |
+| Data Transfer Safeguards (EEA)   | No SCCs or adequacy provided                   | Missing |
+| Data Retention Policy            | Retains logs for 5+ years                      | High Risk |
+| Right to Erasure Mechanism       | Manual deletion by support only                | Weak |
+| Consent Management (if required) | Not applicable (processor role)                | Pass |
+| Privacy Policy Review            | Outdated (last updated 2021)                   | Outdated |
+| Security Certifications          | No SOC 2 or ISO 27001                          | Missing |
 ```
 
 
 I performed a **control-based assessment** to evaluate how the vendor aligns with core privacy and security obligations. This isn’t just a checkbox exercise — each control here maps to a real legal or framework requirement.
 
-- **DPA**: Since they’re a processor, I verified whether they had a signed DPA. They didn’t — that’s a **critical GDPR violation**, and I marked it as ❌.
-- **Subprocessor list**: Their website listed a few subprocessors, but the list was outdated and incomplete. Under GDPR, vendors are required to **fully disclose** all subprocessors. I flagged this as ⚠️ Partial.
-- **SCCs**: Given their Germany-based operations and U.S. affiliations, I checked for **data transfer mechanisms**. They didn’t provide SCCs, which is required under **Chapter V of GDPR**, so I marked this as another ❌.
-- **Retention policy**: Keeping logs for 5+ years is an issue unless justified (e.g., for legal archiving). Since that wasn't clear, I flagged this as ⚠️ High Risk.
+- **DPA**: Since they’re a processor, I verified whether they had a signed DPA. They didn’t — that’s a **critical GDPR violation**.
+- **Subprocessor list**: Their website listed a few subprocessors, but the list was outdated and incomplete. Under GDPR, vendors are required to **fully disclose** all subprocessors. 
+- **SCCs**: Given their Germany-based operations and U.S. affiliations, I checked for **data transfer mechanisms**. They didn’t provide SCCs, which is required under **Chapter V of GDPR**.
+- **Retention policy**: Keeping logs for 5+ years is an issue unless justified (e.g., for legal archiving). Since that wasn't clear.
 - **Erasure mechanism**: The “Right to be Forgotten” (GDPR Art. 17) should be easily exercised. If deletion only happens manually by support staff, that’s weak and error-prone.
-- **Consent**: They don’t collect data directly from users, so GDPR consent obligations don’t apply. I marked this as ✅ Pass.
+- **Consent**: They don’t collect data directly from users, so GDPR consent obligations don’t apply.
 - **Privacy Policy**: It hadn’t been updated since 2021 — a red flag because policies must reflect **current processing activities**.
-- **Certifications**: They had no SOC 2 or ISO 27001 — which I usually expect for any vendor handling sensitive client data. That’s a ❌ in my books.
+- **Certifications**: They had no SOC 2 or ISO 27001 — which I usually expect for any vendor handling sensitive client data.
 
 ---
 
@@ -78,7 +78,7 @@ I performed a **control-based assessment** to evaluate how the vendor aligns wit
 | Regulatory Exposure (GDPR/CCPA)     | 15%    | 2            |
 
 **Total Weighted Score:** `1.85 / 3.0`  
-**Risk Level:** 🔴 High Risk
+**Risk Level:**  High Risk
 ```
 
 After the qualitative review, I applied a **quantitative risk scoring model**. This gives me a consistent and defensible way to compare vendors — especially useful when justifying my decisions to leadership or audit.
@@ -124,7 +124,7 @@ Here I documented the **actionable steps** the vendor must take. These recommend
 
 ---
 
-**Signed:**  
+Signed:  
 Ramyar Daneshgar  
 _Compliance & Privacy Analyst_  
 2025-04-07

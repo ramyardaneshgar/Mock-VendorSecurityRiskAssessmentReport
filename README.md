@@ -117,10 +117,10 @@ Here I documented the **actionable steps** the vendor must take. These recommend
 ## 5. Final Recommendation
 
 ```markdown
-> **Do not proceed with vendor onboarding** until critical privacy and security gaps are addressed:
+> Do not proceed with vendor onboarding until critical privacy and security gaps are addressed:
 > - Signed Data Processing Agreement (DPA)
 > - Documented subprocessors
-> - Data transfer safeguards (e.g., SCCs)
+> - Data transfer safeguards (SCCs)
 
 ---
 

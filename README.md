@@ -14,15 +14,15 @@ By Ramyar Daneshgar
 ## 1. Vendor Overview
 
 ```markdown
-| Attribute            | Value                                   |
-|----------------------|------------------------------------------|
-| Legal Entity         | Acme Cloud Services, Inc.                |
-| Service Description  | Cloud-based file storage and collaboration |
-| Data Handled         | PII, Client Financial Records            |
-| Data Processing Role | Processor                                |
-| Hosting Location     | United States, Germany                   |
-| Third-Party Subprocessors | AWS, Cloudflare, Mixpanel             |
-| Contact for Privacy  | privacy@acmecloud.com                    |
+| Attribute            | Value                                     |
+|----------------------|------------------------------------------ |
+| Legal Entity         | Acme Cloud Services, Inc.                 |
+| Service Description  | Cloud-based file storage and collaboration|
+| Data Handled         | PII, Client Financial Records             |
+| Data Processing Role | Processor                                 |
+| Hosting Location     | United States, Germany                    |
+| Third-Party Subprocessors | AWS, Cloudflare, Mixpanel            |
+| Contact for Privacy  | privacy@acmecloud.com                     |
 ```
 
 In this section, I captured basic vendor information to establish context. I always start by confirming the legal entity name because it's essential for contracts like a DPA (Data Processing Agreement). Knowing what service they provide tells me what types of data may be involved and how mission-critical it is to our business.

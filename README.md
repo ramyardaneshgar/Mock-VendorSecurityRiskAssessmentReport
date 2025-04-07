@@ -94,12 +94,12 @@ The final weighted score: `1.85 / 3` → I round this up to **High Risk**. This 
 ## 4. Recommendations
 
 ```markdown
-1. **Execute a GDPR-compliant Data Processing Agreement (DPA)** prior to onboarding.
-2. **Disclose all subprocessors** on a public-facing webpage or provide internal documentation.
-3. **Implement Standard Contractual Clauses (SCCs)** for cross-border transfers involving the EEA.
-4. **Revise the privacy policy** to reflect current practices, especially data sharing and retention.
-5. **Reduce log retention** to under 2 years unless legally required.
-6. **Pursue SOC 2 Type II or ISO 27001** certification to demonstrate baseline security controls.
+1. Execute a GDPR-compliant Data Processing Agreement (DPA)** prior to onboarding.
+2. Disclose all subprocessors** on a public-facing webpage or provide internal documentation.
+3. Implement Standard Contractual Clauses (SCCs)** for cross-border transfers involving the EEA.
+4. Revise the privacy policy** to reflect current practices, especially data sharing and retention.
+5. Reduce log retention** to under 2 years unless legally required.
+6. Pursue SOC 2 Type II or ISO 27001** certification to demonstrate baseline security controls.
 ```
 
 Here I documented the actionable steps the vendor must take. These recommendations tie directly back to my findings. I don’t just highlight the problems — I offer a roadmap for how the vendor can resolve each one.
@@ -125,7 +125,7 @@ Here I documented the actionable steps the vendor must take. These recommendatio
 
 Signed:  
 Ramyar Daneshgar  
-_Compliance & Privacy Analyst_  
+Compliance & Privacy Analyst 
 2025-04-07
 ```
 
